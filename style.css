@@ -2,14 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+/*Section-1*/
+
+/*Header*/
 .section-1{
     background-color: #1f2937;
-    font-family: 'Roboto', sans-serif ;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-1 .header{
@@ -29,7 +34,8 @@
     gap: 15px;
 }
 
-.section-1 .header a{
+.section-1 .header a, 
+.section-1 .content .text-btn p{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -40,3 +46,28 @@
     font-weight:bolder;
     color: #F9FAF8;
 }
+
+/*Content*/
+.section-1 .content{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 70px;
+}
+
+.section-1 .content .text-btn h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.section-1 .content .text-btn button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
