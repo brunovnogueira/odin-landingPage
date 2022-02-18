@@ -115,11 +115,12 @@
     font-size: 36px;
     color: #1f2937;
     padding: 100px 0;
-    width: 810px;
+    width: 770px;
+    font-weight:lighter;
 }
 
 .section-3 .quote p{
     text-align: right;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 20px;
 }
